@@ -1,0 +1,28 @@
+{
+  "name": "landearn",
+  "version": "1.0.0",
+  "description": "Broker for verified properties and hub for verified real estate service men",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/optimalresource/landearn-web.git"
+  },
+  "keywords": [
+    "Landearn",
+    "real",
+    "estate",
+    "verified",
+    "properties",
+    "verified",
+    "trusted"
+  ],
+  "author": "Joseph Okafor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/optimalresource/landearn-web/issues"
+  },
+  "homepage": "https://github.com/optimalresource/landearn-web#readme"
+}

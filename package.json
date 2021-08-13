@@ -1,28 +1,38 @@
 {
-  "name": "landearn",
-  "version": "1.0.0",
-  "description": "Broker for verified properties and hub for verified real estate service men",
-  "main": "index.js",
+  "name": "landearn-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/optimalresource/landearn-web.git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "keywords": [
-    "Landearn",
-    "real",
-    "estate",
-    "verified",
-    "properties",
-    "verified",
-    "trusted"
-  ],
-  "author": "Joseph Okafor",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/optimalresource/landearn-web/issues"
-  },
-  "homepage": "https://github.com/optimalresource/landearn-web#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

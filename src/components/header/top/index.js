@@ -113,7 +113,7 @@ function Desktop1366Ver2(props) {
     <div className="container-center-horizontal">
       <div className="desktop-1366-ver2 screen">
         <div className="header">
-          <img className="vector" src={TopLogo} />
+          <img className="vector" src={TopLogo} alt="good" />
           <div className="frame-1">
             <Typeinvisible>{typeinvisibleProps.children}</Typeinvisible>
             <Typeinvisible className={typeinvisible2Props.className}>{typeinvisible2Props.children}</Typeinvisible>
@@ -126,9 +126,9 @@ function Desktop1366Ver2(props) {
         <div className="overlap-group2">
           <div className="hero-image">
             <div className="overlap-group3">
-              <img className="pexels-cottonbro-4569339-1" src={HeroImg} />
+              <img className="pexels-cottonbro-4569339-1" src={HeroImg} alt="good" />
               <div className="fade"></div>
-              <img className="fade-1" src={Fade} />
+              <img className="fade-1" src={Fade} alt="good" />
             </div>
           </div>
           <div className="top-text-and-search">
@@ -204,14 +204,14 @@ function Desktop1366Ver2(props) {
           />
         </div>
         <p className="text-11">{text11}</p>
-        <img className="vector-1" src={Line} />
+        <img className="vector-1" src={Line} alt="good" />
         <div className="our-partners">{ourPartners}</div>
         <div className="logos">
-          <img className="image-1" src={Partner1} />
-          <img className="image" src={Partner1} />
-          <img className="image" src={Partner1} />
-          <img className="image-4" src={Partner1} />
-          <img className="image-5" src={Partner1} />
+          <img className="image-1" src={Partner1} alt="good" />
+          <img className="image" src={Partner1} alt="good" />
+          <img className="image" src={Partner1} alt="good" />
+          <img className="image-4" src={Partner1} alt="good" />
+          <img className="image-5" src={Partner1} alt="good" />
         </div>
         <div className="banner">
           <div className="overlap-group5" style={{ backgroundImage: `url(${overlapGroup5})` }}>
@@ -247,10 +247,10 @@ function Desktop1366Ver2(props) {
             vector2={property1FAQQuestion3Props.vector2}
           />
         </div>
-        <img className="calendly-section" src={Calendly} />
+        <img className="calendly-section" src={Calendly} alt="good" />
         <div className="overlap-group" style={{ backgroundImage: `url(${overlapGroup})` }}>
           <div className="frame-43">
-            <img className="logo" src={LogoFooter} />
+            <img className="logo" src={LogoFooter} alt="good" />
             <div className="footer-items">
               <div className="frame-39">
                 <div className="frame-36">
@@ -457,7 +457,7 @@ function Iconssearch(props) {
   return (
     <div className="iconssearch">
       <div className="overlap-group3-2" style={{ backgroundImage: `url(${overlapGroup3})` }}>
-        <img className="vector-3" src={Search} />
+        <img className="vector-3" src={Search} alt="good" />
       </div>
     </div>
   );
@@ -578,8 +578,8 @@ function PropertiPreview(props) {
 
   return (
     <div className={`properti-preview-1 ${className || ""}`}>
-      <img className="image-2" src={image} />
-      <img className="frame-12" src={frame12} />
+      <img className="image-2" src={image} alt="good" />
+      <img className="frame-12" src={frame12} alt="good" />
     </div>
   );
 }
@@ -591,7 +591,7 @@ function IconskeyboardArrowLeft(props) {
   return (
     <div className="iconskeyboardarrowleft">
       <div className="overlap-group3-3" style={{ backgroundImage: `url(${overlapGroup3})` }}>
-        <img className="vector-4" src="" />
+        <img className="vector-4" src="" alt="good" />
       </div>
     </div>
   );
@@ -604,7 +604,7 @@ function IconskeyboardArrowRight(props) {
   return (
     <div className="iconskeyboardarrowright">
       <div className="overlap-group3-4" style={{ backgroundImage: `url(${overlapGroup3})` }}>
-        <img className="vector-5" src="" />
+        <img className="vector-5" src="" alt="good" />
       </div>
     </div>
   );
@@ -686,17 +686,17 @@ function Benefits(props) {
 
 
 function IconssupportAgentBlack24dp(props) {
-  const { overlapGroup4, vector2, vector3, vector4 } = props;
+  const { overlapGroup4} = props;
 
   return (
     <div className="iconssupportagentblack24dp">
       <div className="overlap-group3-5">
-        <img className="vector-6" src="" />
+        <img className="vector-6" src="" alt="good" />
         <div className="group-3">
           <div className="overlap-group4" style={{ backgroundImage: `url(${overlapGroup4})` }}>
-            <img className="vector-7" src={OneYear} />
-            <img className="vector-8" src={OneYear} />
-            <img className="vector-9" src={OneYear} />
+            <img className="vector-7" src={OneYear} alt="good" />
+            <img className="vector-8" src={OneYear} alt="good" />
+            <img className="vector-9" src={OneYear} alt="good" />
           </div>
         </div>
       </div>
@@ -725,17 +725,17 @@ function Benefits2(props) {
 
 
 function IconsadminPanelSettingsBlack24dp1(props) {
-  const { vector2, vector3, vector4 } = props;
+//   const { vector2, vector3, vector4 } = props;
 
   return (
     <div className="iconsadminpane-gsblack24dp-1">
       <div className="overlap-group3-6">
-        <img className="vector-10" src="" />
+        <img className="vector-10" src="" alt="good" />
         <div className="group-5">
           <div className="overlap-group4-1">
-            <img className="vector-11" src={Verified} />
-            <img className="vector-12" src={Verified} />
-            <img className="vector-13" src={Verified} />
+            <img className="vector-11" src={Verified} alt="good" />
+            <img className="vector-12" src={Verified} alt="good" />
+            <img className="vector-13" src={Verified} alt="good" />
           </div>
         </div>
       </div>
@@ -760,13 +760,13 @@ function Benefits3(props) {
 
 
 function IconshistoryEduBlack24dp(props) {
-  const { vector2 } = props;
+//   const { vector2 } = props;
 
   return (
     <div className="iconshistoryedublack24dp">
       <div className="overlap-group3-7">
-        <img className="vector-14" src={Legal} />
-        <img className="vector-15" src={Legal} />
+        <img className="vector-14" src={Legal} alt="good" />
+        <img className="vector-15" src={Legal} alt="good" />
       </div>
     </div>
   );
@@ -796,8 +796,8 @@ function Property1FAQReply(props) {
       <div className="frame-27-6Qgaoy">
         <div className="text-14-0BLqHP">{text14}</div>
         <div className="iconskeyboardarrowdown-0BLqHP">
-          <img className="vector-6TiKyZ" src="" />
-          <img className="vector-5KldxP" src={vector2} />
+          <img className="vector-6TiKyZ" src="" alt="good" />
+          <img className="vector-5KldxP" src={vector2} alt="good" />
         </div>
       </div>
       <div className="frame-28-6Qgaoy">
@@ -836,8 +836,8 @@ function Property1FAQQuestion(props) {
     <div className="x31686 component component-wrapper not-ready">
       <div className="how-is-landearn-diff-e1YXdj">{howIsLandearnDiff}</div>
       <div className="iconskeyboardarrowright-e1YXdj">
-        <img className="vector-vH9FoV" src="" />
-        <img className="vector-UBHdQy" src={vector2} />
+        <img className="vector-vH9FoV" src="" alt="good" />
+        <img className="vector-UBHdQy" src={vector2} alt="good" />
       </div>
     </div>
   );

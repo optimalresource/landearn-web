@@ -9,7 +9,6 @@ import Partner1 from './../../../assets/images/partner1.png';
 import Line from './../../../assets/images/line1.png';
 import Calendly from './../../../assets/images/calendly.png';
 import LogoFooter from './../../../assets/images/logo-footer.png';
-import LogoIcon from './../../../assets/images/logo-icon.png';
 import OneYear from './../../../assets/images/support_agent_black_24dp.png';
 import Verified from './../../../assets/images/admin_panel_settings_black_24dp1.png';
 import Legal from './../../../assets/images/history_edu_black_24dp.png';
@@ -34,8 +33,8 @@ export default App;
 
 function Desktop1366Ver2(props) {
   const {
-    pexelsCottonbro45693391,
-    fade,
+    // pexelsCottonbro45693391,
+    // fade,
     text2,
     text3,
     inputType,
@@ -44,20 +43,20 @@ function Desktop1366Ver2(props) {
     text4,
     text5,
     text11,
-    vector1,
+    // vector1,
     ourPartners,
-    image1,
-    image3,
-    image2,
-    image4,
-    image5,
+    // image1,
+    // image3,
+    // image2,
+    // image4,
+    // image5,
     overlapGroup5,
     text12,
     text13,
     text6,
-    calendlySection,
+    // calendlySection,
     overlapGroup,
-    logo,
+    // logo,
     buyProperties,
     buyAProperty,
     getAMortgage,

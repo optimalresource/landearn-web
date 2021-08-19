@@ -62,7 +62,7 @@ function Desktop1366Ver2(props) {
     <div className="container-center-horizontal">
       <div className="desktop-1366-ver2 screen">
         <div className="header">
-          <a href="#"><img className="logo" src={logo} alt="Good" /></a>
+          <a href="https://landearn.com"><img className="logo" src={logo} alt="Good" /></a>
           <Frame1
             typeinvisibleProps={frame1Props.typeinvisibleProps}
             typeinvisible2Props={frame1Props.typeinvisible2Props}
@@ -204,7 +204,7 @@ function Typeinvisible(props) {
   return (
     <div className={`x31612 component component-wrapper ${className || ""}`}>
       <div className="button-i316122135-dMLMMl">
-        <a href="#" >{children}</a></div>
+        <a href="https://landearn.com" >{children}</a></div>
     </div>
   );
 }
@@ -251,7 +251,7 @@ function Typebasic(props) {
   }, []);
 
   return (
-    <a href="#">
+    <a href="https://landearn.com">
     <div className={`x31615 component component-wrapper not-ready ${className || ""}`}>
       <div className="button-i31615249-OAYiOw">{children}</div>
     </div>
@@ -299,7 +299,7 @@ function TypeSecondary() {
   }, []);
 
   return (
-    <a href="#">
+    <a href="https://landearn.com">
     <div className="x31616 component component-wrapper not-ready">
       <div className="button-i316164470-SbgD5E">Login</div>
     </div>

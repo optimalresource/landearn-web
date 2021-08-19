@@ -62,7 +62,7 @@ function Desktop1366Ver2(props) {
     <div className="container-center-horizontal">
       <div className="desktop-1366-ver2 screen">
         <div className="header">
-          <a href="#"><img className="logo" src={logo} /></a>
+          <a href="#"><img className="logo" src={logo} alt="Good" /></a>
           <Frame1
             typeinvisibleProps={frame1Props.typeinvisibleProps}
             typeinvisible2Props={frame1Props.typeinvisible2Props}
@@ -77,7 +77,7 @@ function Desktop1366Ver2(props) {
             </div>
             <div className="searchinput">
               <Search />
-              <img className="ctasearch" src={cta_Search} />
+              <img className="ctasearch" src={cta_Search} alt="Good" />
             </div>
           </div>
         </div>
@@ -123,6 +123,7 @@ function Desktop1366Ver2(props) {
         <p className="how-to-buy-with-us axiforma-bold-cod-gray-14px">{howToBuyWithUs}</p>
         <img
           className="vector-1"
+          alt="Good"
           src="https://anima-uploads.s3.amazonaws.com/projects/611bfeda331562400fadc1b1/releases/611c37a298305a35d443c704/img/vector-1@1x.svg"
         />
         <div className="our-partners">{ourPartners}</div>
@@ -153,10 +154,11 @@ function Desktop1366Ver2(props) {
         <img
           className="calendly-section"
           src=""
+          alt="Good"
         />
         <div className="overlap-group">
           <div className="frame-43">
-            <img className="logo-1" src={logo2} />
+            <img className="logo-1" src={logo2} alt="Good" />
             <div className="footer-items">
               <div className="frame-39">
                 <Frame36 />
@@ -344,6 +346,7 @@ function Search() {
     <div className="search">
       <img
         className="iconslocationon"
+        alt="Good"
         src="https://anima-uploads.s3.amazonaws.com/projects/611bfeda331562400fadc1b1/releases/611c37a298305a35d443c704/img/icons-location-on@2x.png"
       />
       <input
@@ -487,10 +490,12 @@ function PropertiPreview(props) {
       <img
         className="image"
         src={top}
+        alt="Good"
       />
       <img
         className="frame-12"
         src={bottom}
+        alt="Good"
       />
     </div>
   );
@@ -540,7 +545,7 @@ function Benefits(props) {
   return (
     <div className="benefits-1 border-1px-dark300">
       <div className="frame-19">
-        <img className="iconssupportagentblack24dp" src={iconsSupport_Agent_Black_24Dp} />
+        <img className="iconssupportagentblack24dp" src={iconsSupport_Agent_Black_24Dp} alt="Good" />
         <div className="text-9 axiforma-bold-amazon-18px">{text9}</div>
       </div>
       <p className="text-10 axiforma-regular-normal-black-14px">{text10}</p>
@@ -570,6 +575,7 @@ function IconsadminPanelSettingsBlack24dp1() {
       <div className="overlap-group4">
         <img
           className="vector"
+          alt="Good"
           src="https://anima-uploads.s3.amazonaws.com/projects/611bfeda331562400fadc1b1/releases/611c37a298305a35d443c704/img/vector@2x.png"
         />
         <div className="group-3"></div>
@@ -602,9 +608,10 @@ function IconshistoryEduBlack24dp(props) {
       <div className="overlap-group4-1">
         <img
           className="vector-2"
+          alt="Good"
           src="https://anima-uploads.s3.amazonaws.com/projects/611bfeda331562400fadc1b1/releases/611c37a298305a35d443c704/img/vector@2x.png"
         />
-        <img className="group-4" src={group} />
+        <img className="group-4" src={group} alt="Good" />
       </div>
     </div>
   );
@@ -616,22 +623,27 @@ function Logos() {
     <div className="logos">
       <img
         className="image-1-1"
+        alt="Good"
         src="https://anima-uploads.s3.amazonaws.com/projects/611bfeda331562400fadc1b1/releases/611c37a298305a35d443c704/img/image-1@2x.png"
       />
       <img
         className="image-1"
+        alt="Good"
         src="https://anima-uploads.s3.amazonaws.com/projects/611bfeda331562400fadc1b1/releases/611c37a298305a35d443c704/img/image-3@2x.png"
       />
       <img
         className="image-1"
+        alt="Good"
         src="https://anima-uploads.s3.amazonaws.com/projects/611bfeda331562400fadc1b1/releases/611c37a298305a35d443c704/img/image-2@2x.png"
       />
       <img
         className="image-4"
+        alt="Good"
         src="https://anima-uploads.s3.amazonaws.com/projects/611bfeda331562400fadc1b1/releases/611c37a298305a35d443c704/img/image-4@2x.png"
       />
       <img
         className="image-5"
+        alt="Good"
         src="https://anima-uploads.s3.amazonaws.com/projects/611bfeda331562400fadc1b1/releases/611c37a298305a35d443c704/img/image-5@2x.png"
       />
     </div>
@@ -661,7 +673,7 @@ function Property1FAQReply(props) {
     <div className="x31685 component component-wrapper not-ready">
       <div className="frame-27-6Qgaoy">
         <div className="text-13-0BLqHP">{text13}</div>
-        <img className="iconskeyboardarrowdown-0BLqHP" src={iconsKeyboard_Arrow_Down} />
+        <img className="iconskeyboardarrowdown-0BLqHP" src={iconsKeyboard_Arrow_Down} alt="Good" />
       </div>
       <div className="frame-28-6Qgaoy">
         <div className="text-14-ULAsjc">{text14}</div>
@@ -700,6 +712,7 @@ function Property1FAQQuestion(props) {
       <div className="how-is-landearn-diff-e1YXdj">{howIsLandearnDiff}</div>
       <img
         className="iconskeyboardarrowright-e1YXdj"
+        alt="Good"
         src="https://anima-uploads.s3.amazonaws.com/projects/611bfeda331562400fadc1b1/releases/611c37a298305a35d443c704/img/icons-keyboard-arrow-right@2x.png"
       />
     </div>

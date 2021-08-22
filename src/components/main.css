@@ -1,0 +1,64 @@
+@import 'presets.css';
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family-axiforma-regular);
+}
+
+@media screen and (min-width: 768px){
+    
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.desktop-1366-ver2 {
+  align-items: center;
+  background-color: var(--darkwhite);
+  display: flex;
+  flex-direction: column;
+  height: 4485px;
+  position: relative;
+  width: 100%;
+}
+
+.box-center {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.overlay_mobile {
+ 
+  background-image: url("../assets/images/mobile/pexels-cottonbro-45693391.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column; 
+  min-height: 619px;
+  width: 100%;
+  align-items: center;
+  /* justify-content: center; */
+}

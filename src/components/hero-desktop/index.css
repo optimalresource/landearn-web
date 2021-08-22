@@ -1,0 +1,65 @@
+.hero-desktop {
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(100% - 20px);
+    background-image: url("../../assets/images/mobile/pexels-cottonbro-45693391.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0 20px;
+    padding: 24px;
+    border-radius: 8px;
+    /* justify-content: flex-start; */
+}
+
+.hero-title {
+  color: var(--darkwhite);
+  font-family: var(--font-family-axiforma-bold);
+  font-size: var(--font-size-xxxxl2);
+  font-weight: 700;
+  letter-spacing: 0;
+  text-align: left;
+  width: 100%;
+  margin-top: 139px;
+}
+
+.hero-typer {
+  color: var(--darkwhite);
+  font-family: var(--font-family-axiforma-medium);
+  font-size: var(--font-size-xl2);
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-top: 20px;
+  min-height: 130px;
+  text-align: left;
+  width: 70%;
+  /* left: 0; */
+}
+
+.constrain-search {
+    width: 70%;
+}
+
+@media (min-width: 1140px) {
+  .hero-typer {
+    width: 50%;
+  }
+
+  .constrain-search {
+      width: 50%;
+  }
+}
+
+@media (max-width: 240px) {
+  .text-7 {
+    min-height: 260px;
+  }
+}
+
+@media (max-width: 191px) {
+  .text-7 {
+    min-height: 420px;
+  }
+}

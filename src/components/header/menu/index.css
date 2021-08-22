@@ -1,0 +1,15 @@
+.frame-1 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 433px;
+  position: relative;
+}
+
+.frame-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 40px;
+  margin-left: 40px;
+  min-width: 247px;
+  position: relative;
+}

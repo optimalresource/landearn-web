@@ -1,0 +1,39 @@
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 98px;
+  width: calc(100% - 20px);
+  position: relative;
+  justify-content:space-between;
+}
+
+.logo {
+  height: 32px;
+  width: 165px;
+  align-items: flex-start;
+  display: flex
+}
+@media (max-width: 768px){
+  .header {
+    height: 60px;
+  }
+
+  .menu {
+    width: 24px;
+    cursor: pointer;
+  }
+
+  .logo {
+    width: 132px;
+    height: auto;
+  }
+}
+
+@media (max-width: 270px){
+  .logo {
+    width: 28px;
+    height: auto;
+  }
+}
+

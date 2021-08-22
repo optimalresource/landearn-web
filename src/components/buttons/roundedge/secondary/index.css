@@ -1,0 +1,45 @@
+@import '../../../fonts.css';
+@import '../../../presets.css';
+
+.x31616 {
+  background-color: #e5e5e6;
+  border-radius: 4px;
+  height: 40px;
+  margin-left: 12px;
+  opacity: 1;
+  position: relative;
+  width: 69px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.button-i316164470-SbgD5E {
+  color: #080808;
+  font-family: 'Axiforma-Medium', Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 16px;
+  opacity: 1;
+  position: absolute;
+  white-space: nowrap;
+  display: grid;
+  justify-self: center;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .x31616 {
+    margin-left: 0;
+    width: 90%;
+    border-radius: 4;
+    margin: 1% 5%;
+  }
+}
+
+@media (max-width: 270px){
+  .button-i316164470-SbgD5E {
+    font-size: 14px;
+  }
+}

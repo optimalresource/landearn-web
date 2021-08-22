@@ -1,0 +1,61 @@
+@import '../../../fonts.css';
+@import '../../../presets.css';
+
+.x31615 {
+  background-color: #3b7e62;
+  border-radius: 4px;
+  height: 40px;
+  opacity: 1;
+  position: relative;
+  width: 166px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.x31615.x31650 {
+  margin-top: 24px;
+  /* width: 1140px; */
+  width: 100%;
+}
+
+.x31615.x31669 {
+  margin-left: 12px;
+  width: 102px;
+}
+
+.x31615:hover {
+  background: #559781;
+}
+
+.button-m-OAYiOw {
+  color: #fff;
+  font-family: "Axiforma-Medium",Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 16px;
+  opacity: 1;
+  position: absolute;
+  white-space: nowrap;
+  display: grid;
+  justify-self: center;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .x31615, .x31615.x31669 {
+    position: relative;
+    margin: 1% 5%;
+    width: 90%;
+  }
+}
+
+@media (max-width: 270px){
+  .button-m-OAYiOw {
+    font-size: 14px;
+    white-space:normal;
+    word-wrap: break-word;
+    text-align: center;
+  }
+}

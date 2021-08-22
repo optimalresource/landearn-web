@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import './index.css';
-import FullSite from './components';
+import App from './components';
 import reportWebVitals from './reportWebVitals';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faTimesCircle } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faCheckSquare, faTimesCircle)
 
 ReactDOM.render(
   <React.StrictMode>
-    <FullSite />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

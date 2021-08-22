@@ -1,0 +1,104 @@
+@import '../fonts.css';
+@import '../presets.css';
+
+.search {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items:flex-start;
+}
+
+.iconslocationon {
+  height: 24px;
+  width: 24px;
+}
+
+.search-for-location {
+  background-color: transparent;
+  border: 0;
+  flex-grow: 1;
+  height: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 12px;
+  margin-top: 2px;
+  mix-blend-mode: normal;
+  padding: 0;
+  resize: none;
+  text-align: left;
+  /* width: 100%; */
+  outline: none;
+}
+
+.search-for-location::placeholder {
+  color: #08080899;
+}
+
+.searchinput {
+  align-items:center;
+  background-color: var(--darkwhite);
+  border-radius: 80px;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 12px;
+  position: relative;
+}
+
+.ctasearch {
+  height: 44px;
+  margin-left: 36px;
+  width: 44px;
+  cursor: pointer;
+}
+
+.ctasearch:hover {
+    opacity: 0.8;
+}
+
+@media (min-width: 330px) and (max-width: 392px){
+  .search {
+    width: 70%
+  }
+}
+
+@media (max-width: 354px) {
+    .search-for-location {
+        margin-left: 5px;
+        font-size: 17px;
+    }
+
+    .ctasearch {
+        margin-left: 5px;
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media (max-width: 330px){
+    .iconslocationon {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 310px) {
+    .search-for-location {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+    .ctasearch {
+        margin-left: 5px;
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (max-width: 270px){
+  .search {
+    width: 70%;
+  }
+}

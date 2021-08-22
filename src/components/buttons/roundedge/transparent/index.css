@@ -1,0 +1,62 @@
+@import '../../../fonts.css';
+@import '../../../presets.css';
+
+.x31612 {
+  border-radius: 4px;
+  height: 40px;
+  opacity: 1;
+  width: 52px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.x31612.x31613 {
+  margin-left: 40px;
+  width: 54px;
+}
+
+.x31612:hover {
+  background: #E8F2EF;
+  cursor: pointer;
+}
+
+.button-i316122135-dMLMMl {
+  color: #080808;
+  font-family: 'Axiforma-Medium', Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 16px;
+  opacity: 1;
+  position: absolute;
+  white-space: nowrap;
+  display: grid;
+  justify-self: center;
+  align-self: center;
+}
+
+.button-i316122135-dMLMMl a {
+  cursor: pointer;
+  color:rgba(0, 0, 0, 1)
+}
+
+@media (max-width: 768px) {
+  .x31612.x31613 {
+    margin-left: 0;
+  }
+
+  .x31612, .x31612.x31613 {
+    width: calc(90% - 20px);
+    border-radius: 4;
+    margin: 1% 5%;
+    justify-content:flex-start;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 270px){
+  .button-i316122135-dMLMMl {
+    font-size: 14px;
+  }
+}

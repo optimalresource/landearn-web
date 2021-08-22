@@ -45,10 +45,10 @@
     align-items: center;
     z-index: 400px;
     font-stretch:expanded;
-    -webkit-transform:scale(1.5, 1.0);
-    -moz-transform:scale(1.5, 1.0);
-    -ms-transform:scale(1.5, 1.0);
-    -o-transform:scale(1.5, 1.0);
-    transform:scale(1.5,1.0);
+    -webkit-transform:scale(1.0, 1.0);
+    -moz-transform:scale(1.0, 1.0);
+    -ms-transform:scale(1.0, 1.0);
+    -o-transform:scale(1.0, 1.0);
+    transform:scale(1.0,1.0);
     cursor: pointer;
 }

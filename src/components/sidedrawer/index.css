@@ -39,21 +39,21 @@
 }
 
 .close-icon {
-    font-size: 28px;
+    /* font-size: 28px; */
     display:flex;
     justify-content: center;
     align-items: center;
     z-index: 400px;
-    font-stretch:expanded;
-    -webkit-transform:scale(1.0, 1.0);
+    /* font-stretch:expanded; */
+    /* -webkit-transform:scale(1.0, 1.0);
     -moz-transform:scale(1.0, 1.0);
     -ms-transform:scale(1.0, 1.0);
     -o-transform:scale(1.0, 1.0);
-    transform:scale(1.0,1.0);
+    transform:scale(1.0,1.0); */
     cursor: pointer;
     /* width: 28px; */
 }
 
 .close-img {
-    width: 28px;
+    width: 18px;
 }

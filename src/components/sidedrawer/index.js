@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import Close from '../../assets/images/mobile/close.png';
+import Close from '../../assets/images/mobile/close.svg';
 import TButton from '../buttons/roundedge/transparent';
 import PButton from '../buttons/roundedge/primary';
 import SButton from '../buttons/roundedge/secondary';

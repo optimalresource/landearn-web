@@ -19,7 +19,7 @@ function App({ drawerClickHandler, show }) {
         <div className="close">
           {/* <FontAwesomeIcon icon="times-circle" /> */}
           <div className="close-icon" onClick={drawerClickHandler}>
-            <img src={Close} alt="close" />
+            <img src={Close} alt="close" className="close-img" />
           </div>
         </div>
         <TButton {...sell} />

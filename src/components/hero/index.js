@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
 // import WhiteLogo from '../../assets/images/mobile/logo_white.png'
-import { useMediaQuery } from 'react-responsive'
-import { mediaQueries } from '../../responsive'
+// import { useMediaQuery } from 'react-responsive'
+// import { mediaQueries } from '../../responsive'
 import { hero } from '../../data/hero'
 import SearchInput from '../search-input'
 
@@ -10,9 +10,8 @@ function App() {
 
     const [write, setWrite] = useState("");
 
-    const isMobile = useMediaQuery({query: mediaQueries.mobileQuery});
-
     useEffect(() => {
+        // const isMobile = useMediaQuery({query: mediaQueries.mobileQuery});
         var i = 0;
         var txt = hero.subTitle;
         var speed = 50;
@@ -33,9 +32,9 @@ function App() {
                 }, 5000);
             }
         }
-        if(isMobile){
+        // if(isMobile){
             typeWriter();
-        }
+        // }
         return () => ac.abort();
     },[])
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
-import { useMediaQuery } from 'react-responsive'
-import { mediaQueries } from '../../responsive'
+// import { useMediaQuery } from 'react-responsive'
+// import { mediaQueries } from '../../responsive'
 import { hero } from '../../data/hero'
 import SearchInput from '../search-input'
 
@@ -9,10 +9,9 @@ function App() {
 
     const [heroType, setHeroType] = useState("");
 
-    const isTablet = useMediaQuery({query: mediaQueries.tabletQuery});
-    const isDesktop = useMediaQuery({query: mediaQueries.desktopQuery});
-
     useEffect(() => {
+        // const isTablet = useMediaQuery({query: mediaQueries.tabletQuery});
+        // const isDesktop = useMediaQuery({query: mediaQueries.desktopQuery});
         var i = 0;
         var txt = hero.subTitle;
         var speed = 50;
@@ -34,9 +33,9 @@ function App() {
             }
         }
 
-        if(isTablet || isDesktop){
+        // if(isTablet || isDesktop){
             heroTyper();
-        }
+        // }
         return () => ac.abort();
     },[])
 

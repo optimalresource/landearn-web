@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import Close from '../../assets/images/mobile/close.png';
 import TButton from '../buttons/roundedge/transparent';
 import PButton from '../buttons/roundedge/primary';
 import SButton from '../buttons/roundedge/secondary';
@@ -17,7 +18,9 @@ function App({ drawerClickHandler, show }) {
       <nav className="side-drawer">
         <div className="close">
           {/* <FontAwesomeIcon icon="times-circle" /> */}
-          <div className="close-icon" onClick={drawerClickHandler}>x</div>
+          <div className="close-icon" onClick={drawerClickHandler}>
+            <img src={Close} alt="close" />
+          </div>
         </div>
         <TButton {...sell} />
         <TButton {...buy} />

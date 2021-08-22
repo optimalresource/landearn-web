@@ -51,4 +51,5 @@
     -o-transform:scale(1.0, 1.0);
     transform:scale(1.0,1.0);
     cursor: pointer;
+    width: 28px;
 }

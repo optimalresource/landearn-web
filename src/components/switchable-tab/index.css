@@ -1,1 +1,69 @@
+@import '../fonts.css';
+@import '../presets.css';
 
+.x712778 {
+  background-color: #f6f6f6;
+  border-radius: 100px;
+  height: 47px;
+  margin-right: 1.0px;
+  margin-top: 24px;
+  opacity: 1;
+  width: 221px;
+}
+
+.x712778 .frame-17-fxmCFR {
+  border-radius: 100px;
+  height: 39px;
+  left: 4px;
+  opacity: 1;
+  position: relative;
+  top: 4px;
+  width: 213px;
+}
+
+.x712778 .frame-16-NPPK8P {
+  background-color: #080808;
+  border-radius: 100px;
+  height: 39px;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 106px;
+}
+
+.x712778 .text-8-Bx4pEd {
+  color: #ffffff;
+  font-family: 'Axiforma-Bold', Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  left: 16px;
+  letter-spacing: 0;
+  opacity: 1;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+}
+
+.x712778 .frame-15-NPPK8P {
+  border-radius: 100px;
+  height: 39px;
+  left: 110px;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 103px;
+}
+
+.x712778 .text-9-T9vfNx {
+  color: #080808;
+  font-family: 'Axiforma-Bold', Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  left: 16px;
+  letter-spacing: 0;
+  opacity: 1;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+}

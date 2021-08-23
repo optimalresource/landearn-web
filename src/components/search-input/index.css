@@ -21,7 +21,6 @@
   letter-spacing: 0;
   line-height: normal;
   margin-left: 12px;
-  margin-top: 2px;
   mix-blend-mode: normal;
   padding: 0;
   resize: none;
@@ -31,6 +30,7 @@
 }
 
 .search-for-location::placeholder {
+  margin-top: 2px;
   color: #08080899;
 }
 

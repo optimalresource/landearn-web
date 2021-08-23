@@ -22,7 +22,7 @@
 }
 
 .x712778 .frame-16-NPPK8P {
-  background-color: #080808;
+  /* background-color: #080808; */
   border-radius: 100px;
   height: 39px;
   left: 0;
@@ -33,14 +33,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .x712778 .text-8-Bx4pEd {
-  color: #ffffff;
+  /* color: #ffffff; */
   font-family: 'Axiforma-Bold', Helvetica;
   font-size: 14px;
+  line-height: 16px;
   font-weight: 700;
-  /* left: 16px; */
   letter-spacing: 0;
   opacity: 1;
   text-align: center;
@@ -60,12 +61,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+
+.x712778 .active {
+    background-color: #080808;
+    color: #f6f6f6;
+}
+
+.x712778 .inactive {
+    background-color: #f6f6f6;
+    color: #080808;
 }
 
 .x712778 .text-9-T9vfNx {
-  color: #080808;
+  /* color: #080808; */
   font-family: 'Axiforma-Bold', Helvetica;
   font-size: 14px;
+  line-height: 16px;
   font-weight: 700;
   letter-spacing: 0;
   opacity: 1;

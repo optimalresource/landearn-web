@@ -61,6 +61,7 @@
   font-size: var(--font-size-m);
   font-weight: 400;
   font-style: normal;
+  line-height: 24px;
 }
 .axiforma-bold-amazon-18px {
   color: var(--primarymain-primary);

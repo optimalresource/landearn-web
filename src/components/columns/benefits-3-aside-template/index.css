@@ -1,3 +1,11 @@
+.benefits_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .benefits {
   align-items: flex-start;
   background-color: var(--darkwhite);
@@ -36,6 +44,19 @@
   margin-top: 12px;
   min-height: 44px;
   /* width: 236px; */
+}
+
+@media (min-width: 769px){
+  .benefits_wrap {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+  }
+
+  .benefits {
+    width: 30%;
+    min-height: 150px;
+  }
 }
 
 @media (max-width: 270px){

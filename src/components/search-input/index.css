@@ -27,7 +27,7 @@
   text-align: left;
   /* width: 100%; */
   outline: none;
-  padding-bottom: 2px;
+  /* padding-bottom: 2px; */
 }
 
 /* .search-for-location::placeholder {
@@ -36,17 +36,17 @@
 
 .search-for-location::-webkit-input-placeholder { /* Edge */
   color: #08080899;
-  padding-top: 3px;
+  padding-top: 4px;
 }
 
 .search-for-location:-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: #08080899;
-  padding-top: 3px;
+  padding-top: 4px;
 }
 
 .search-for-location::placeholder {
   color: #08080899;
-  padding-top: 3px;
+  padding-top: 4px;
 }
 
 .searchinput {

@@ -29,9 +29,23 @@
   outline: none;
 }
 
-.search-for-location::placeholder {
-  margin-top: 2px;
+/* .search-for-location::placeholder {
   color: #08080899;
+} */
+
+.search-for-location::-webkit-input-placeholder { /* Edge */
+  color: red;
+  margin-top: 2px;
+}
+
+.search-for-location:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: red;
+  margin-top: 2px;
+}
+
+.search-for-location::placeholder {
+  color: red;
+  margin-top: 2px;
 }
 
 .searchinput {

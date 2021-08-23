@@ -1,0 +1,12 @@
+.text {
+    text-align: center;
+}
+
+.benefit-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    width: calc(100% - 20px);
+}

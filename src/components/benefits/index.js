@@ -4,7 +4,10 @@ import Tab from '../switchable-tab'
 
 const Benefits = () => {
     return (
-        <Tab />
+        <div className="benefit-wrapper">
+            <div className="text axiforma-bold-cod-gray-28px" data-id="70:1998">Some key benefits</div>
+            <Tab />
+        </div>
     )
 }
 

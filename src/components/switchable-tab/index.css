@@ -30,6 +30,9 @@
   position: absolute;
   top: 0;
   width: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .x712778 .text-8-Bx4pEd {
@@ -37,12 +40,13 @@
   font-family: 'Axiforma-Bold', Helvetica;
   font-size: 14px;
   font-weight: 700;
-  left: 16px;
+  /* left: 16px; */
   letter-spacing: 0;
   opacity: 1;
-  position: absolute;
   text-align: center;
-  top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .x712778 .frame-15-NPPK8P {
@@ -53,6 +57,9 @@
   position: absolute;
   top: 0;
   width: 103px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .x712778 .text-9-T9vfNx {
@@ -60,10 +67,10 @@
   font-family: 'Axiforma-Bold', Helvetica;
   font-size: 14px;
   font-weight: 700;
-  left: 16px;
   letter-spacing: 0;
   opacity: 1;
-  position: absolute;
   text-align: center;
-  top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

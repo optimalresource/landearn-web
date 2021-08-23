@@ -47,6 +47,10 @@
   .text-7 {
     min-height: 230px;
   }
+
+  .text-6 {
+    font-size: var(--font-size-xxxl);
+  }
 }
 
 @media (max-width: 240px) {

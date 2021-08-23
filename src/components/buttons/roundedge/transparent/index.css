@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   justify-items: center;
+  cursor: pointer;
 }
 
 .x31612.x31613 {
@@ -18,7 +19,7 @@
 
 .x31612:hover {
   background: #E8F2EF;
-  cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
 
 .button-i316122135-dMLMMl {

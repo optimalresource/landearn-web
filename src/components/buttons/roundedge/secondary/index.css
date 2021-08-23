@@ -14,6 +14,11 @@
   justify-items: center;
 }
 
+.x31616:hover {
+  background: #C5C5C6;
+  transition: 0.2s ease-in-out;
+}
+
 .button-i316164470-SbgD5E {
   color: #080808;
   font-family: 'Axiforma-Medium', Helvetica;

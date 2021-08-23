@@ -1,20 +1,20 @@
 .benefits {
-  align-items: flex-end;
+  align-items: flex-start;
   background-color: var(--darkwhite);
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   min-height: 120px;
   padding: 16px 14px;
-  width: 266px;
+  width: calc(100% - 48px);
   margin-top: 30px;
 }
 
 .frame-19 {
-  align-items: center;
-  align-self: center;
+  align-items: flex-start;
+  align-self: flex-start;
   display: flex;
-  min-width: 234px;
+  /* min-width: 234px; */
 }
 
 .iconssupportagentblack24dp {
@@ -27,7 +27,7 @@
   margin-left: 12px;
   min-height: 30px;
   margin-top: 10px;
-  width: 192px;
+  /* width: 192px; */
   /* padding-top: 5px; */
 }
 
@@ -35,5 +35,15 @@
   letter-spacing: 0;
   margin-top: 12px;
   min-height: 44px;
-  width: 236px;
+  /* width: 236px; */
+}
+
+@media (max-width: 270px){
+  .iconssupportagentblack24dp {
+    display: none;
+  }
+
+  .text-10 {
+    margin-left: 0;
+  }
 }

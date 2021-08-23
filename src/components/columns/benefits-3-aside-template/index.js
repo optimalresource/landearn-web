@@ -7,6 +7,7 @@ const ThreeAside = () => {
             <div class="frame-19">
             <img
                 class="iconssupportagentblack24dp"
+                alt="icon"
                 src="https://anima-uploads.s3.amazonaws.com/projects/611bfeda331562400fadc1b1/releases/611c37a298305a35d443c704/img/icons-support-agent-black-24dp@2x.png"
             />
             <div class="text-10 axiforma-bold-amazon-18px">Free support</div>

@@ -20,8 +20,8 @@ const Benefits = () => {
         <div className="benefit-wrapper">
             <div className="text axiforma-bold-cod-gray-28px" data-id="70:1998">Some key benefits</div>
             <Tab click={toggleSwitch} />
-            { benefitSwitch === "buyers" && <ThreeAside benefits={buyer_benefits} /> }
-            { benefitSwitch === "sellers" && <ThreeAside benefits={seller_benefits} /> }
+            { benefitSwitch === "buyers" && <ThreeAside benefits={buyer_benefits} more="See all benefits" url="https://landearn.com"  /> }
+            { benefitSwitch === "sellers" && <ThreeAside benefits={seller_benefits} more="See all benefits" url="https://landearn.com" /> }
         </div>
     )
 }

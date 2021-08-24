@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import PButton from '../../buttons/roundedge/primary';
+// import PButton from '../../buttons/roundedge/primary';
 
 const ThreeAside = ({benefits, more, url}) => {
     return (

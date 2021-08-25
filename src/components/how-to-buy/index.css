@@ -1,0 +1,124 @@
+.full_how_to_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.full_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.frame-84 {
+position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+  min-height: 343px;
+  width: calc(100% - 48px);
+  margin-top: 40px;
+}
+
+.frame-81 {
+    position: relative;
+    background-color: var(--bon-jour);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner2-1 {
+  height: 180px;
+  /* margin-left: 4px; */
+  object-fit: cover;
+  width: 270px;
+  border-radius: 12px;
+}
+
+.frame-83 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 143px;
+  width: 270px;
+  /* padding-left: 5px; */
+}
+
+.step {
+  letter-spacing: 0.80px;
+  min-height: 14px;
+}
+
+.frame-82 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  min-height: 117px;
+  width: 100%;
+}
+
+.text-1 {
+  letter-spacing: 0;
+  min-height: 25px;
+}
+
+.text-2 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: 12px;
+  min-height: 80px;
+  width: 100%;
+}
+
+.how-to-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 20px);
+}
+
+@media (min-width: 768px){
+    .full_wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .frame-84 {
+        width: 90%;
+    }
+
+    .frame-83 {
+        width: 100%;
+    }
+
+    .banner2-1 {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 340px){
+    .banner2-1 {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+
+    .frame-83 {
+        width: 100%;
+    }
+}

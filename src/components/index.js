@@ -8,6 +8,7 @@ import SideDrawer from './sidedrawer'
 import Hero from './hero'
 import HeroDesktop from './hero-desktop'
 import Benefits from './benefits';
+import HowToBuy from './how-to-buy';
 
 function App() {
     const [sideDrawOpen, setSideDrawOpen] = useState(false);
@@ -43,6 +44,7 @@ function App() {
                         <Hero />
                     </div>
                     <Benefits />
+                    <HowToBuy />
                     { backdrop }
                     {/* { sidedraw } */}
                     <SideDrawer drawerClickHandler={exitDrawerToggleClickHandler} 
@@ -58,6 +60,7 @@ function App() {
                     <Header drawerClickHandler={drawerToggleClickHandler} />
                     <HeroDesktop />
                     <Benefits />
+                    <HowToBuy />
                 </div>
             </div>
         )

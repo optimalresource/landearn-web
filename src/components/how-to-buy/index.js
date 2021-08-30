@@ -11,19 +11,19 @@ const HowToBuy = () => {
                 { how_to_buy.map((how, index) => {
                         return (
                             <div className="how-to-wrapper" key={index}>
-                                <div class="frame-84">
-                                    <div class="frame-81">
+                                <div className="frame-84">
+                                    <div className="frame-81">
                                         <img
-                                        class="banner2-1"
+                                        className="banner2-1"
                                         alt="how to buy"
                                         src={ how.pic }
                                         />
                                     </div>
-                                    <div class="frame-83">
-                                        <div class="step axiforma-bold-jumbo-10px">{ how.step }</div>
-                                        <div class="frame-82">
-                                        <div class="text-1 axiforma-bold-amazon-18px">{ how.title }</div>
-                                        <p class="text-2 axiforma-regular-normal-black-14px">
+                                    <div className="frame-83">
+                                        <div className="step axiforma-bold-jumbo-10px">{ how.step }</div>
+                                        <div className="frame-82">
+                                        <div className="text-1 axiforma-bold-amazon-18px">{ how.title }</div>
+                                        <p className="text-2 axiforma-regular-normal-black-14px">
                                         { how.description }
                                         </p>
                                         </div>

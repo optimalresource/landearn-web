@@ -41,6 +41,13 @@
   font-weight: 700;
   font-style: normal;
 }
+.axiforma-600-bold-cod-gray-14px {
+  color: var(--darkmain-dark);
+  font-family: var(--font-family-axiforma-bold);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  font-style: normal;
+}
 .axiforma-regular-normal-mid-gray-16px {
   color: var(--dark800);
   font-family: var(--font-family-axiforma-regular);
@@ -96,6 +103,13 @@
   font-family: var(--font-family-axiforma-regular);
   font-size: var(--font-size-l);
   font-weight: 400;
+  font-style: normal;
+}
+.axiforma-regular-bold-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-axiforma-bold);
+  font-size: var(--font-size-l);
+  font-weight: 600;
   font-style: normal;
 }
 .axiforma-medium-cod-gray-18px {

@@ -39,7 +39,13 @@
   width: 340px;
 }
 
-@media (max-width: 379px) {
+.padd {
+  width: calc(100% - 56px);
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 390px) {
   .image,
   .frame-12 {
     width: 100%;
@@ -49,6 +55,7 @@
 @media (min-width: 768px) and (max-width: 1140px) {
   .flex-row {
     flex-direction: row;
+    width: 100%;
   }
   .group {
     width: 45%;
@@ -62,7 +69,7 @@
   }
 }
 
-@media (min-width: 1141px) {
+@media (min-width: 1040px) {
   .group {
     width: 30%;
   }
@@ -72,6 +79,7 @@
   }
   .flex-row {
     flex-direction: row;
+    width: 100%;
   }
   .no-item {
     width: 30%;

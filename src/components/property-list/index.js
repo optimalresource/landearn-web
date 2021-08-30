@@ -100,9 +100,6 @@ const PropertyList = () => {
         </div>
         <PropertyTabs toggleSwitcher={toggleSwitcher} />
         {output}
-        {/* <div className="padd">
-            <PButton className="x31650" title="See all 6 verified properties" url="https://landearn.com" />
-        </div> */}
       </div>
     </div>
   );

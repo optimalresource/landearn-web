@@ -1,20 +1,19 @@
 import React from "react";
 import "./index.css";
 
-const PropertyFeatures = () => {
+const PropertyFeatures = ({ property }) => {
   return (
     <div className="feature-container">
-      <div className="inner-container containing-div">
         <div className="text-container">
-          <div className="text-title">3 Bedroom Detached Townhouse</div>
-          <div className="text-location">Awoyaya, Lagos</div>
+          <div className="text-title">{property.title}</div>
+          <div className="text-location">{property.location}</div>
         </div>
 
         <div className="bottom-section">
           <div className="bottom-section-inner">
             <div className="price-box">
-              <div className="price-left">$</div>
-              <div className="price-right-text">123,456</div>
+              <div className="price-left">{property.currencySymbol}</div>
+              <div className="price-right-text">{property.price}</div>
             </div>
 
             <div className="bottom-right">
@@ -25,7 +24,6 @@ const PropertyFeatures = () => {
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 };

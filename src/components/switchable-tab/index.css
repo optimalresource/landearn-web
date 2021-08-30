@@ -5,7 +5,6 @@
   background-color: #f6f6f6;
   border-radius: 100px;
   height: 47px;
-  margin-right: 1.0px;
   margin-top: 24px;
   opacity: 1;
   width: 221px;
@@ -86,4 +85,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 213px){
+  .x712778 {
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 0;
+    /* padding: 20px 0; */
+    background: transparent;
+  }
+  .x712778 .frame-17-fxmCFR {
+    width: 95%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .x712778 .frame-16-NPPK8P, .x712778 .frame-15-NPPK8P {
+    position: relative;
+    left: 0;
+    margin-top: 5px;
+  }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-// import PropertyFeatures from "./property-features";
+import PropertyFeatures from "./property-features";
 import PButton from "../buttons/roundedge/primary";
 
 const PropertyListing = ({ properties, length, chunk, showButton }) => {
@@ -26,12 +26,7 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
                     alt="Property list"
                     src={property.src}
                   />
-                  <img
-                        class="frame-12"
-                        alt="Property list"
-                        src="https://anima-uploads.s3.amazonaws.com/projects/611bfeda331562400fadc1b1/releases/611c37a298305a35d443c704/img/frame-12@2x.svg"
-                        />
-                  {/* <PropertyFeatures /> */}
+                  <PropertyFeatures property={property} />
                 </div>
               </div>
             );

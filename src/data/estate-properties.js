@@ -7,28 +7,43 @@ import Unsplash6 from "../assets/images/mobile/unsplash6.png";
 export const estate_properties = [
   {
     src: Unsplash4,
-    title: "Legal help",
+    title: "5 plot of Land",
+    location: "Garki, Abuja",
+    price: "120,000",
+    currencySymbol: "$",
     description: "Documents are prepared for you by Landearn legal team.",
   },
   {
     src: Unsplash2,
-    title: "Verified offers",
+    title: "1 Bedroom Apartment + Study",
+    location: "Lekki, Lagos",
+    price: "256,564",
+    currencySymbol: "$",
     description:
       "Properties are of valid titles and information stated is accurate.",
   },
   {
     src: Unsplash3,
-    title: "Legal help",
+    title: "4 Bedroom Semi-Detached Duplex",
+    location: "Ikorodu, Laggos",
+    price: "56,000",
+    currencySymbol: "$",
     description: "Documents are prepared for you by Landearn legal team.",
   },
   {
     src: Unsplash5,
-    title: "Legal help",
+    title: "Fully Furnished Duplex",
+    location: "Ikoyi, Lagos",
+    price: "380,000",
+    currencySymbol: "$",
     description: "Documents are prepared for you by Landearn legal team.",
   },
   {
     src: Unsplash6,
-    title: "Legal help",
+    title: "3 Bedroom Flat Apartment",
+    location: "Ikeja, Lagos",
+    price: "270,000",
+    currencySymbol: "$",
     description: "Documents are prepared for you by Landearn legal team.",
   },
 ];

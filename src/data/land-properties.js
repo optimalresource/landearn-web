@@ -2,6 +2,9 @@ import Unsplash1 from "../assets/images/mobile/unsplash1.png";
 import Unsplash2 from "../assets/images/mobile/unsplash2.png";
 import Unsplash3 from "../assets/images/mobile/unsplash3.png";
 import Unsplash4 from "../assets/images/mobile/unsplash4.png";
+import Bath from "../assets/images/mobile/bath.svg";
+import Bed from "../assets/images/mobile/bed.svg";
+import SQM from "../assets/images/mobile/sqm.svg";
 
 export const land_properties = [
   {
@@ -12,6 +15,20 @@ export const land_properties = [
     currencySymbol: "$",
     description:
       "Properties are of valid titles and information stated is accurate.",
+    features: [
+      {
+        icon: Bed,
+        amount: 4,
+      },
+      {
+        icon: Bath,
+        amount: 6,
+      },
+      {
+        icon: SQM,
+        amount: 1500,
+      },
+    ],
   },
   {
     src: Unsplash1,
@@ -20,6 +37,20 @@ export const land_properties = [
     price: "123,456",
     currencySymbol: "$",
     description: "One year support on your home inspection, enquiry or issues.",
+    features: [
+      {
+        icon: Bed,
+        amount: 3,
+      },
+      {
+        icon: Bath,
+        amount: 5,
+      },
+      {
+        icon: SQM,
+        amount: 1200,
+      },
+    ],
   },
   {
     src: Unsplash3,
@@ -28,6 +59,20 @@ export const land_properties = [
     price: "56,000",
     currencySymbol: "$",
     description: "Documents are prepared for you by Landearn legal team.",
+    features: [
+      {
+        icon: Bed,
+        amount: 2,
+      },
+      {
+        icon: Bath,
+        amount: 4,
+      },
+      {
+        icon: SQM,
+        amount: 900,
+      },
+    ],
   },
   {
     src: Unsplash4,
@@ -36,5 +81,19 @@ export const land_properties = [
     price: "120,000",
     currencySymbol: "$",
     description: "Documents are prepared for you by Landearn legal team.",
+    features: [
+      {
+        icon: Bed,
+        amount: 4,
+      },
+      {
+        icon: Bath,
+        amount: 4,
+      },
+      {
+        icon: SQM,
+        amount: 1300,
+      },
+    ],
   },
 ];

@@ -48,11 +48,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
-  position: static;
-  height: 40px;
-  left: 0px;
-  top: 0px;
+  width: 100%;
 }
 
 .price-box {
@@ -81,7 +77,7 @@
 .bottom-right {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -93,22 +89,14 @@
   padding: 0px 8px 0px 4px;
   background: #ffffff;
   border-radius: 4px;
+  margin-right: 5px;
 }
 
 .feature-icon {
-  position: static;
   width: 24px;
-  height: 24px;
-  left: 4px;
-  top: 0px;
 }
 
 .feature-amount {
-  position: static;
-  width: 7px;
-  height: 16px;
-  left: 32px;
-  top: 4px;
   font-family: var(--axiforma-medium-black-12px);
   font-size: var(--font-size-s);
   line-height: 16px;
@@ -121,9 +109,9 @@
         height: auto;
     }
 
-    .bottom-right {
+    /* .bottom-right {
         left: 0
-    }
+    } */
 }
 
 @media (max-width: 270px){

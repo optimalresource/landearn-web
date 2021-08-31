@@ -24,7 +24,7 @@ const PropertyFeatures = ({ property }) => {
                   return "";
                 }else {
                   return (
-                    <div className="feature-div">
+                    <div className="feature-div" key={index}>
                       <div className="feature-icon">
                         <img src={feature.icon} alt="feature" />
                       </div>

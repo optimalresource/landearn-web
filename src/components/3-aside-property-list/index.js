@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.css";
 import PropertyFeatures from "./property-features";
 import PButton from "../buttons/roundedge/primary";
 import Favorite from "../../assets/images/mobile/love.svg";
+import FavoriteGreen from "../../assets/images/mobile/love_green.svg";
 
 const PropertyListing = ({ properties, length, chunk, showButton }) => {
     console.log(showButton);
@@ -14,6 +15,26 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
   } else if (length === 2 && chunk === 3) {
     result = <div className="no-item" />;
   }
+  const [fav, setFav] = useState(Favorite);
+  let favorite = [];
+  for(let i=0; i<length; i++){
+    favorite[i] = fav;
+  }
+
+  const favoriteToggle = (index, value) => {
+    if(value === Favorite) {
+      setFav(FavoriteGreen)
+      favorite[index] = fav;
+    }else {
+      setFav(Favorite);
+      favorite[index] = fav;
+    }
+  }
+
+  // useEffect(() => {
+  //   favorite = fav;
+  // }, [favorite, setFav]);
+
   return (
     <div className="rowed">
       <div className="flex-row">
@@ -36,9 +57,10 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
                       </div>
 
                       <img
-                        src={Favorite}
+                        src={favorite[index]}
                         className="property-favorite-icon"
                         alt="favorite"
+                        onClick={() => favoriteToggle(index, favorite[index])}
                       />
                     </div>
                   </div>

@@ -3,7 +3,8 @@ import "./index.css";
 import PropertyFeatures from "./property-features";
 import PButton from "../buttons/roundedge/primary";
 import Favorite from "../../assets/images/mobile/love.svg";
-import FavoriteGreen from "../../assets/images/mobile/love_green.svg";
+// import FavoriteGreen from "../../assets/images/mobile/love_green.svg";
+import FavoriteGreen from "../../assets/images/mobile/love_pink.svg";
 
 const PropertyListing = ({ properties, length, chunk, showButton }) => {
     console.log(showButton);

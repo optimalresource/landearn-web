@@ -3,11 +3,11 @@ import "./index.css";
 import PropertyFeatures from "./property-features";
 import PButton from "../buttons/roundedge/primary";
 import Favorite from "../../assets/images/mobile/love.svg";
-// import FavoriteGreen from "../../assets/images/mobile/love_green.svg";
-import FavoriteGreen from "../../assets/images/mobile/love_pink.svg";
+import FavoriteGreen from "../../assets/images/mobile/love_green.svg";
+// import FavoriteGreen from "../../assets/images/mobile/love_pink.svg";
 
 const PropertyListing = ({ properties, length, chunk, showButton }) => {
-    console.log(showButton);
+    // console.log(showButton);
   let result = "";
   if (length === 1 && chunk === 2) {
     result = <div className="no-item" />;
@@ -22,19 +22,13 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
     favorite[i] = fav;
   }
 
-  const favoriteToggle = (index, value) => {
-    if(value === Favorite) {
+  const favoriteToggle = () => {
+    if(fav === Favorite) {
       setFav(FavoriteGreen)
-      // favorite[index] = FavoriteGreen;
     }else {
       setFav(Favorite);
-      // favorite[index] = Favorite;
     }
   }
-
-  // useEffect(() => {
-  //   favorite = fav;
-  // }, [favorite, setFav]);
 
   return (
     <div className="rowed">
@@ -59,10 +53,10 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
                       </div>
 
                       <img
-                        src={favorite[index]}
+                        src={fav}
                         className="property-favorite-icon"
                         alt="favorite"
-                        onClick={() => favoriteToggle(index, favorite[index])}
+                        onClick={() => favoriteToggle()}
                       />
                     </div>
                   </div>

@@ -39,7 +39,6 @@ body {
   background-color: var(--darkwhite);
   display: flex;
   flex-direction: column;
-  height: 4485px;
   position: relative;
   width: 100%;
 }

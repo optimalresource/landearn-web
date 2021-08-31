@@ -2,6 +2,7 @@ import React from "react";
 import "./index.css";
 import PropertyFeatures from "./property-features";
 import PButton from "../buttons/roundedge/primary";
+import Favorite from "../../assets/images/mobile/love.svg";
 
 const PropertyListing = ({ properties, length, chunk, showButton }) => {
     console.log(showButton);
@@ -27,6 +28,19 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
                       alt="Property list"
                       src={property.src}
                     />
+                    <div className="property-top-panel">
+                      <div className="property-caption">
+                        <div className="property-caption-text">
+                          Semi-Detached House
+                        </div>
+                      </div>
+
+                      <img
+                        src={Favorite}
+                        className="property-favorite-icon"
+                        alt="favorite"
+                      />
+                    </div>
                   </div>
                   <PropertyFeatures property={property} />
                 </div>

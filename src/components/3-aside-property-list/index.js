@@ -25,10 +25,10 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
   const favoriteToggle = (index, value) => {
     if(value === Favorite) {
       setFav(FavoriteGreen)
-      favorite[index] = fav;
+      // favorite[index] = FavoriteGreen;
     }else {
       setFav(Favorite);
-      favorite[index] = fav;
+      // favorite[index] = Favorite;
     }
   }
 
@@ -41,6 +41,7 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
       <div className="flex-row">
         {properties.map((property, index) => {
           if (index < 3) {
+            console.log(index);
             return (
               <div className="group" key={index}>
                 <div className="properti-preview">

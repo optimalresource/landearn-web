@@ -3,19 +3,20 @@ import ProfitsIcon from '../assets/images/mobile/profits.svg'
 import FastIcon from '../assets/images/mobile/fast.svg'
 
 export const seller_benefits = [
-    {
-        icon: FastIcon,
-        title: "Fast sale",
-        description: "Properties are sold faster"
-    },
-    {
-        icon: ProfitsIcon,
-        title: "Maximize profits",
-        description: "You maximize profit by selling at a convenient price."
-    },
-    {
-        icon: FlexibleIcon,
-        title: "Flexibility",
-        description: "Make offers on new property even while your listed one hasn’t sold out."
-    },
-]
+  {
+    icon: FastIcon,
+    title: "Fast sale",
+    description: "Properties are sold faster",
+  },
+  {
+    icon: ProfitsIcon,
+    title: "Maximize profits",
+    description: "You maximize profit by selling at a convenient price.",
+  },
+  {
+    icon: FlexibleIcon,
+    title: "Flexibility",
+    description:
+      "Make offers on new properties while yours is still on the market.",
+  },
+];

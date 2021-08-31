@@ -21,11 +21,13 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
             return (
               <div className="group" key={index}>
                 <div className="properti-preview">
-                  <img
-                    className="image"
-                    alt="Property list"
-                    src={property.src}
-                  />
+                  <div className="first-box">
+                    <img
+                      className="image"
+                      alt="Property list"
+                      src={property.src}
+                    />
+                  </div>
                   <PropertyFeatures property={property} />
                 </div>
               </div>

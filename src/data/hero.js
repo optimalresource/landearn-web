@@ -1,4 +1,5 @@
 export const hero = {
-    title: "Buy verified properties",
-    subTitle: "Buy trusted properties from any location at a cheaper rate, alongside legal services and deed transfers all covered for you.",
-}
+  title: "Buy verified properties",
+  subTitle:
+    "Purchase legally verified properties from anywhere, including deed transfers, for a lesser price.",
+};

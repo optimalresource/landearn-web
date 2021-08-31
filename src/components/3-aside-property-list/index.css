@@ -21,22 +21,28 @@
 }
 
 .properti-preview {
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   width: 100%;
   border-radius: 12px;
 }
 
+.first-box {
+  width: 100%; /* was formerly 340px*/
+  margin: 0;
+}
+
 .image {
-  width: 340px;
+  width: 100%;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
 
 .frame-12 {
-  /* height: 128px; */
-  width: 340px;
+  width: 100%; /* was formerly 340px*/
+  margin: 0;
 }
 
 .padd {
@@ -46,7 +52,7 @@
 }
 
 @media (max-width: 390px) {
-  .image,
+  .first-box, .image,
   .frame-12 {
     width: 100%;
   }
@@ -60,7 +66,7 @@
   .group {
     width: 45%;
   }
-  .image,
+  .first-box, .image,
   .frame-12 {
     width: 100%;
   }
@@ -73,7 +79,7 @@
   .group {
     width: 30%;
   }
-  .image,
+  .first-box, .image,
   .frame-12 {
     width: 100%;
   }

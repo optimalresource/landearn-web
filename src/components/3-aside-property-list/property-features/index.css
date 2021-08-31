@@ -6,11 +6,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 340px;
+  width: 100%; /* was formerly 340px*/
   background: #ffffff;
   border: 1px solid #e5e5e6;
   box-sizing: border-box;
   border-radius: 0px 0px 12px 12px;
+  margin: -5px;
 }
 
 .text-container {
@@ -114,7 +115,7 @@
     } */
 }
 
-@media (max-width: 270px){
+@media (max-width: 310px){
     .bottom-right {
         display: none;
     }

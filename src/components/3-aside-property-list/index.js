@@ -16,6 +16,15 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
   }
 
   const [favorites, setFavorites] = useState([]);
+  const [showBlur, setShowBlur] = useState(false);
+
+  const showOverlay = (id) => {
+    setShowBlur(id)
+  }
+
+  const hideOverlay = () => {
+    setShowBlur(false);
+  }
 
   const favoriteToggle = (id) => {
     if(!favorites.includes(id)){
@@ -37,7 +46,11 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
             return (
               <div className="group" key={property.id}>
                 <div className="properti-preview">
-                  <div className="first-box">
+                  <div
+                    className="first-box"
+                    onMouseEnter={() => showOverlay(property.id)}
+                    onMouseLeave={hideOverlay}
+                  >
                     <img
                       className="image"
                       alt="Property list"
@@ -61,6 +74,8 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
                         onClick={() => favoriteToggle(property.id)}
                       />
                     </div>
+
+                    {showBlur === property.id && <OverlayBlock />}
                   </div>
                   <PropertyFeatures property={property} />
                 </div>
@@ -82,4 +97,7 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
   );
 };
 
+const OverlayBlock = () => {
+  return <div className="hover-property"></div>;
+}
 export default PropertyListing;

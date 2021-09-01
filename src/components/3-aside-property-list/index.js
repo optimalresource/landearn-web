@@ -3,11 +3,9 @@ import "./index.css";
 import PropertyFeatures from "./property-features";
 import PButton from "../buttons/roundedge/primary";
 import Favorite from "../../assets/images/mobile/love.svg";
-import FavoriteGreen from "../../assets/images/mobile/love_green.svg";
-// import FavoriteGreen from "../../assets/images/mobile/love_pink.svg";
+import FavoriteWhite from "../../assets/images/mobile/love_white.svg";
 
 const PropertyListing = ({ properties, length, chunk, showButton }) => {
-    // console.log(showButton);
   let result = "";
   if (length === 1 && chunk === 2) {
     result = <div className="no-item" />;
@@ -16,17 +14,17 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
   } else if (length === 2 && chunk === 3) {
     result = <div className="no-item" />;
   }
-  const [fav, setFav] = useState(Favorite);
-  let favorite = [];
-  for(let i=0; i<length; i++){
-    favorite[i] = fav;
-  }
 
-  const favoriteToggle = () => {
-    if(fav === Favorite) {
-      setFav(FavoriteGreen)
+  const [favorites, setFavorites] = useState([]);
+
+  const favoriteToggle = (id) => {
+    if(!favorites.includes(id)){
+      setFavorites((previous) => {
+        return [...previous, id]
+      });
     }else {
-      setFav(Favorite);
+      const filteredItems = favorites.filter((item) => item !== id);
+      setFavorites(filteredItems);
     }
   }
 
@@ -37,7 +35,7 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
           if (index < 3) {
             console.log(index);
             return (
-              <div className="group" key={index}>
+              <div className="group" key={property.id}>
                 <div className="properti-preview">
                   <div className="first-box">
                     <img
@@ -53,10 +51,14 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
                       </div>
 
                       <img
-                        src={fav}
+                        src={
+                          favorites.includes(property.id)
+                            ? FavoriteWhite
+                            : Favorite
+                        }
                         className="property-favorite-icon"
                         alt="favorite"
-                        onClick={() => favoriteToggle()}
+                        onClick={() => favoriteToggle(property.id)}
                       />
                     </div>
                   </div>

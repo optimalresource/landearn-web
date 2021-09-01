@@ -10,6 +10,8 @@ import SQM from "../assets/images/mobile/sqm.svg";
 
 export const featured_properties = [
   {
+    id: 1,
+    favorite: 0,
     src: Unsplash1,
     title: "3 Bedroom Detached Townhouse",
     location: "Awoyaya, Lagos",
@@ -32,6 +34,8 @@ export const featured_properties = [
     ],
   },
   {
+    id: 2,
+    favorite: 0,
     src: Unsplash2,
     title: "1 Bedroom Apartment + Study",
     location: "Lekki, Lagos",
@@ -55,6 +59,8 @@ export const featured_properties = [
     ],
   },
   {
+    id: 3,
+    favorite: 0,
     src: Unsplash3,
     title: "4 Bedroom Semi-Detached Duplex",
     location: "Ikorodu, Laggos",
@@ -77,6 +83,8 @@ export const featured_properties = [
     ],
   },
   {
+    id: 4,
+    favorite: 0,
     src: Unsplash4,
     title: "5 plot of Land",
     location: "Garki, Abuja",
@@ -99,6 +107,8 @@ export const featured_properties = [
     ],
   },
   {
+    id: 5,
+    favorite: 0,
     src: Unsplash5,
     title: "Fully Furnished Duplex",
     location: "Ikoyi, Lagos",
@@ -121,6 +131,8 @@ export const featured_properties = [
     ],
   },
   {
+    id: 6,
+    favorite: 0,
     src: Unsplash6,
     title: "3 Bedroom Flat Apartment",
     location: "Ikeja, Lagos",

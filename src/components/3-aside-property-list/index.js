@@ -98,6 +98,17 @@ const PropertyListing = ({ properties, length, chunk, showButton }) => {
 };
 
 const OverlayBlock = () => {
-  return <div className="hover-property"></div>;
+  return (
+    <div className="hover-property">
+      <div className="navigations">
+        <div className="go-left">
+          <div className="arrow-text">&lt;</div>
+        </div>
+        <div className="go-right">
+          <div className="arrow-text">&gt;</div>
+        </div>
+      </div>
+    </div>
+  );
 }
 export default PropertyListing;

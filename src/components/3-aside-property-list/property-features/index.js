@@ -1,10 +1,13 @@
 import React from "react";
 import "./index.css";
 
-const PropertyFeatures = ({ property }) => {
+const PropertyFeatures = ({ property, url }) => {
   let features = property.features;
   return (
-    <div className="feature-container">
+    <div
+      className="feature-container"
+      onClick={() => window.open(url, "_blank")}
+    >
       <div className="text-container">
         <div className="text-title">{property.title}</div>
         <div className="text-location">{property.location}</div>
@@ -18,24 +21,20 @@ const PropertyFeatures = ({ property }) => {
           </div>
 
           <div className="bottom-right">
-            {
-              features.map((feature, index) => {
-                if(index > 2) {
-                  return "";
-                }else {
-                  return (
-                    <div className="feature-div" key={index}>
-                      <div className="feature-icon">
-                        <img src={feature.icon} alt="feature" />
-                      </div>
-                      <div className="feature-amount">
-                        {feature.amount}
-                      </div>
+            {features.map((feature, index) => {
+              if (index > 2) {
+                return "";
+              } else {
+                return (
+                  <div className="feature-div" key={index}>
+                    <div className="feature-icon">
+                      <img src={feature.icon} alt="feature" />
                     </div>
-                  );
-                }
-              })
-            }
+                    <div className="feature-amount">{feature.amount}</div>
+                  </div>
+                );
+              }
+            })}
           </div>
         </div>
       </div>

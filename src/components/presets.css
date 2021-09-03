@@ -84,6 +84,13 @@
   font-weight: 600;
   font-style: normal;
 }
+.axiforma-regular-normal-jumbo-12px {
+  color: var(--dark700);
+  font-family: var(--font-family-axiforma-regular);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  font-style: normal;
+}
 .axiforma-bold-black-14px {
   color: var(--black);
   font-family: var(--font-family-axiforma-bold);

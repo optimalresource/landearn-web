@@ -10,6 +10,7 @@ import HeroDesktop from './hero-desktop'
 import Benefits from './benefits';
 import HowToBuy from './how-to-buy';
 import PropertyList from './property-list';
+import Footer from './footer';
 
 function App() {
     const [sideDrawOpen, setSideDrawOpen] = useState(false);
@@ -38,23 +39,25 @@ function App() {
 
     if(isMobile) {
         return (
-            <div className="container-center-horizontal">
-                <div className="desktop-1366-ver2 screen">
-                    <div className="overlay_mobile">
-                        <Header drawerClickHandler={drawerToggleClickHandler} />
-                        <Hero />
-                    </div>
-                    <Benefits />
-                    <HowToBuy />
-                    <PropertyList />
-                    { backdrop }
-                    {/* { sidedraw } */}
-                    <SideDrawer drawerClickHandler={exitDrawerToggleClickHandler} 
-                        show={sideDrawOpen}
-                    />
-                </div> 
+          <div className="container-center-horizontal">
+            <div className="desktop-1366-ver2 screen">
+              <div className="overlay_mobile">
+                <Header drawerClickHandler={drawerToggleClickHandler} />
+                <Hero />
+              </div>
+              <Benefits />
+              <HowToBuy />
+              <PropertyList />
+              <Footer />
+              {backdrop}
+              {/* { sidedraw } */}
+              <SideDrawer
+                drawerClickHandler={exitDrawerToggleClickHandler}
+                show={sideDrawOpen}
+              />
             </div>
-        )
+          </div>
+        );
     }else {
         return (
             <div className="container-center-horizontal">
@@ -64,6 +67,7 @@ function App() {
                     <Benefits />
                     <HowToBuy />
                     <PropertyList />
+                    <Footer />
                 </div>
             </div>
         )

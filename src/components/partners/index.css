@@ -20,7 +20,7 @@
     justify-content: center;
     align-items: center;
     position: static;
-    overflow: auto;
+    overflow: scroll;
 }
 
 .partner-logos::-webkit-scrollbar {

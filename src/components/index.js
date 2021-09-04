@@ -10,6 +10,7 @@ import HeroDesktop from './hero-desktop'
 import Benefits from './benefits';
 import HowToBuy from './how-to-buy';
 import PropertyList from './property-list';
+import Subscribe from './subscribe';
 import Footer from './footer';
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
               <Benefits />
               <HowToBuy />
               <PropertyList />
+              <Subscribe />
               <Footer />
               {backdrop}
               {/* { sidedraw } */}
@@ -67,6 +69,7 @@ function App() {
                     <Benefits />
                     <HowToBuy />
                     <PropertyList />
+                    <Subscribe />
                     <Footer />
                 </div>
             </div>

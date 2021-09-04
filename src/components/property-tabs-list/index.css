@@ -4,7 +4,8 @@
   justify-content: flex-start;
   position: static;
   margin-top: 24px;
-  width: calc(100% - 10px);
+  /* width: calc(100% - 10px); */
+  width: 100%;
   overflow: auto;
   margin-bottom: 20px;
 }

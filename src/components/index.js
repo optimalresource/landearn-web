@@ -13,6 +13,7 @@ import Subscribe from './subscribe';
 import Footer from './footer';
 import Partners from './partners';
 import "./main.css";
+import FAQs from './faqs';
 
 function App() {
     const [sideDrawOpen, setSideDrawOpen] = useState(false);
@@ -52,6 +53,7 @@ function App() {
               <PropertyList />
               <Partners />
               <Subscribe />
+              <FAQs />
               <Footer />
               {backdrop}
               {/* { sidedraw } */}
@@ -73,6 +75,7 @@ function App() {
               <PropertyList />
               <Partners />
               <Subscribe />
+              <FAQs />
               <Footer />
             </div>
           </div>

@@ -20,7 +20,7 @@
     justify-content: center;
     align-items: center;
     position: static;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .partner-logos::-webkit-scrollbar {
@@ -36,5 +36,12 @@
 @media (max-width: 1140px) {
     .partner-title {
         display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .partner-logos {
+        justify-content: flex-start;
+        /* align-items: center; */
     }
 }

@@ -133,6 +133,13 @@
   font-weight: 600;
   font-style: normal;
 }
+.axiforma-regular-cod-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-axiforma-bold);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  font-style: normal;
+}
 .axiforma-medium-cod-gray-18px {
   color: var(--darkmain-dark);
   font-family: var(--font-family-axiforma-medium);

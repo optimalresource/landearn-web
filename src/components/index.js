@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Header from './header';
-import './main.css';
 import { useMediaQuery } from 'react-responsive'
 import { mediaQueries } from '../responsive'
 import Backdrop from './backdrop'
@@ -12,6 +11,8 @@ import HowToBuy from './how-to-buy';
 import PropertyList from './property-list';
 import Subscribe from './subscribe';
 import Footer from './footer';
+import Partners from './partners';
+import "./main.css";
 
 function App() {
     const [sideDrawOpen, setSideDrawOpen] = useState(false);
@@ -49,6 +50,7 @@ function App() {
               <Benefits />
               <HowToBuy />
               <PropertyList />
+              <Partners />
               <Subscribe />
               <Footer />
               {backdrop}
@@ -62,18 +64,19 @@ function App() {
         );
     }else {
         return (
-            <div className="container-center-horizontal">
-                <div className="desktop-1366-ver2 screen">
-                    <Header drawerClickHandler={drawerToggleClickHandler} />
-                    <HeroDesktop />
-                    <Benefits />
-                    <HowToBuy />
-                    <PropertyList />
-                    <Subscribe />
-                    <Footer />
-                </div>
+          <div className="container-center-horizontal">
+            <div className="desktop-1366-ver2 screen">
+              <Header drawerClickHandler={drawerToggleClickHandler} />
+              <HeroDesktop />
+              <Benefits />
+              <HowToBuy />
+              <PropertyList />
+              <Partners />
+              <Subscribe />
+              <Footer />
             </div>
-        )
+          </div>
+        );
     }
 }
 

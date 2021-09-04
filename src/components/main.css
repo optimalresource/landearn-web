@@ -61,3 +61,14 @@ body {
   align-items: center;
   /* justify-content: center; */
 }
+
+a.linker {
+  color: #080808;
+  text-decoration: underline;
+  line-height: 23px;
+  text-align: center;
+}
+
+a.linker:hover {
+  text-decoration: none;
+}

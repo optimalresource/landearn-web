@@ -10,6 +10,10 @@
   margin-bottom: 20px;
 }
 
+.filters::-webkit-scrollbar {
+    display: none;
+}
+
 .inactive {
   background-color: #f6f6f6;
   color: #080808;

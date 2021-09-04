@@ -61,15 +61,14 @@
   /* width: 236px; */
 }
 
-a.linker {
+.linker {
   color: #080808;
   text-decoration: underline;
   line-height: 23px;
   text-align: center;
-  /* margin-top: 24px; */
 }
 
-a.linker:hover {
+.linker:hover {
   text-decoration: none;
 }
 

@@ -1,0 +1,135 @@
+.further-questions-wrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.fq-left {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.fq-title {
+    color: var(--primarymain-primary);
+    width: 100%;
+    text-align: left;
+}
+
+.fq-sub-title {
+    margin-top: 25px;
+}
+
+.fq-message {
+    margin-top: 35px;
+    line-height: 24px;
+}
+
+.fq-author-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.fq-author-pic {
+    border-radius: 100%;
+    width: 51px;
+}
+
+.author-profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.author-name {
+    line-height: 24px;
+}
+
+.author-title {
+    color: #A0A0A6;
+    line-height: 24px;
+}
+
+.fq-right {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.appointment {
+    width:100%;
+    background: var(--primarymain-primary);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.appointment:hover {
+  background: #559781;
+  transition: 0.2s ease-in-out;
+}
+
+.appointment-text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f6f6f6;
+    padding-left: 20px;
+}
+
+.right-arrow {
+    height: 100%;
+    width: 50px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f6f6f6;
+    border-left: 1px solid #8ac79e;
+}
+
+.fq-gt {
+    transform: scale(1, 1.5);
+    -webkit-transform:scale(1,1.5);
+    -moz-transform:scale(1,1.5);
+    -ms-transform:scale(1,1.5);
+    -o-transform:scale(1,1.5);
+    transform:scale(1,1.5);
+}
+
+@media (min-width: 768px){
+    .further-questions-wrapper {
+        width: 80%;
+    }
+}
+@media (min-width: 1140px){
+    .further-questions-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .fq-left {
+        width: 55%;
+    }
+
+    .fq-right {
+        width: 40%;
+    }
+}

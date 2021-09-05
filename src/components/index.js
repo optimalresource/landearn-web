@@ -14,6 +14,7 @@ import Footer from './footer';
 import Partners from './partners';
 import "./main.css";
 import FAQs from './faqs';
+import FurtherQuestions from './further-questions'
 
 function App() {
     const [sideDrawOpen, setSideDrawOpen] = useState(false);
@@ -54,6 +55,7 @@ function App() {
               <Partners />
               <Subscribe />
               <FAQs />
+              <FurtherQuestions />
               <Footer />
               {backdrop}
               {/* { sidedraw } */}
@@ -76,6 +78,7 @@ function App() {
               <Partners />
               <Subscribe />
               <FAQs />
+              <FurtherQuestions />
               <Footer />
             </div>
           </div>

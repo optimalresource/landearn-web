@@ -81,6 +81,7 @@
   justify-items: center;
   z-index: 406;
   position: relative;
+  cursor: pointer;
 }
 
 .button-primary:hover {

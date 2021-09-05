@@ -14,7 +14,7 @@ export const home_properties = [
     src: Unsplash3,
     images: [Unsplash3, Unsplash2, Unsplash5, Unsplash4],
     title: "4 Bedroom Semi-Detached Duplex",
-    location: "Ikorodu, Laggos",
+    location: "Ikorodu, Lagos",
     price: "56,000",
     currencySymbol: "$",
     description: "Documents are prepared for you by Landearn legal team.",

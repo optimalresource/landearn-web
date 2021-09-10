@@ -12,6 +12,7 @@
   display: flex;
   justify-content: center;
   justify-items: center;
+  cursor: pointer;
 }
 
 .x31616:hover {

@@ -8,6 +8,7 @@ export const screenSizes = {
 
 export const mediaQueries = {
   smallMobileQuery: `(max-width: ${screenSizes.smallMobile}px)`,
+  lessTextQuery: `(max-width: ${screenSizes.moreText}px)`,
   moreTextQuery: `(min-width: ${screenSizes.moreText}px)`,
   mobileQuery: `(max-width: ${screenSizes.mobile}px)`,
   tabletMinQuery: `(min-width: ${screenSizes.mobile}px)`,

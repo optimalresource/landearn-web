@@ -7,14 +7,14 @@ import SButton from '../buttons/roundedge/secondary';
 import { data } from '../../data/basic'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-function App({ drawerClickHandler, show }) {
+function App({ drawerClickHandler, show, loginModalClickHandler }) {
   const { login, listProperty, buy, sell } = data.menuItems;
-  let drawerClasses = ['drawer-container'];
-  if(show){
-    drawerClasses = ['drawer-container', 'open']
+  let drawerClasses = ["drawer-container"];
+  if (show) {
+    drawerClasses = ["drawer-container", "open"];
   }
   return (
-    <div className={drawerClasses.join(' ')}>
+    <div className={drawerClasses.join(" ")}>
       <nav className="side-drawer">
         <div className="close">
           {/* <FontAwesomeIcon icon="times-circle" /> */}
@@ -28,7 +28,7 @@ function App({ drawerClickHandler, show }) {
         <div className="space-between" />
 
         <PButton {...listProperty} />
-        <SButton {...login} />
+        <SButton {...login} click={loginModalClickHandler} isTrigger={true} />
       </nav>
     </div>
   );

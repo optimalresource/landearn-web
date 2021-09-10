@@ -2,7 +2,7 @@
     position: fixed;
     display: flex;
     justify-content: flex-end;
-    z-index: 190;
+    z-index: 1000;
     right: -100%;
     /* transform: translateX(100%, 0);  */
     transition: right 0.4s ease-in-out;

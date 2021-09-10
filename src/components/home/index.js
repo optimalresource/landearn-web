@@ -40,6 +40,7 @@ function App({ modalOpen }) {
     setLoginModalShow((previous) => {
       return !previous;
     });
+    if (sideDrawOpen) setSideDrawOpen(!sideDrawOpen);
   };
 
   const exitDrawerToggleClickHandler = () => {

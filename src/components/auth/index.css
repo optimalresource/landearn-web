@@ -232,11 +232,11 @@
     }
 }
 
-@media (min-width: 1440px){
+/* @media (min-width: 1440px){
     .auth-container {
         width: 20%;
     }
-}
+} */
 
 @media (max-width: 313px){
     .auth-container {

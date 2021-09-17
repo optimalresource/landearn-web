@@ -76,7 +76,7 @@ function Main(props) {
             <Notification body='You have received a new offer' date='28th Juny 2021'/>
             <Notification body='You have received a new offer' date='28th Juny 2021'/>
             <div className="notif-link">
-                <a href="#">See all Notifications</a>
+                <a href="/">See all Notifications</a>
             </div>
           </div>
         </div>

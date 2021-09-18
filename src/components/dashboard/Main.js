@@ -12,7 +12,6 @@ import Notification from './components/notification'
 
 function Main(props) {
   return (
-    <div className="">
       <div className="content">
         <div className="flex justify-end    ">
           <div className="top-right">
@@ -36,13 +35,13 @@ function Main(props) {
             <h1 className=" text-2xl">Dashboard</h1>
             <h2 className="mt-2">Home / Dashboard</h2>
           </div>
-          <div className="card-group mt-10 flex justify-between">
+          <div className="card-group mt-10 justify-between">
             <Card title="Listed Items" num="10" icon={l_Icon} />
             <Card title="Purchased" num="3" icon={P_Icon} />
             <Card title="Referrals" num="2" icon={R_Icon} />
           </div>
         </div>
-        <div className="lower-content flex">
+        <div className="lower-content">
           <div className="growth">
             <div className="growth-header">
               <div className="header-title">
@@ -81,7 +80,6 @@ function Main(props) {
           </div>
         </div>
       </div>
-    </div>
   )
 }
 

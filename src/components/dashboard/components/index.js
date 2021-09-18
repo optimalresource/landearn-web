@@ -3,7 +3,7 @@ import '../index.css'
 
 function Card(props) {
     return (
-        <div>
+
             <div className='card p-10 flex justify-between items-center'>
                 <div className="card-content flex-col">
                     <h1 className=' text-xl font-bold'>{props.title}</h1>
@@ -14,7 +14,6 @@ function Card(props) {
                     
                 </div>
             </div>
-        </div>
     );
 }
 

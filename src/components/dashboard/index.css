@@ -2,11 +2,11 @@
 
 .contain {
   width: 1366px;
-  margin: 2rem auto;
+  margin: 0 auto;
 }
 
 .content {
-  width: 974px;
+  /* width: 974px; */
   margin: 0 auto;
 }
 
@@ -49,6 +49,14 @@
   width: 295px;
   height: 160px;
 }
+.card-group {
+    display: flex;
+}
+
+.lower-content {
+    display: flex;
+}
+
 
 .card-num {
   font-family: Poppins;
@@ -120,9 +128,9 @@
 
 .l-posts {
   margin-left: 45px;
+  width: 100%;
 }
 .notif-title {
-  width: 300px;
   height: 54px;
   display: flex;
   justify-content: center;
@@ -155,4 +163,74 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
+}
+
+
+@media only screen and (max-width: 780px ) {
+    .contain {
+        width: auto;
+    }
+    .sidebar{
+        display: none;
+    }
+    /* .growth{
+        margin-bottom: 20px;
+    } */
+    .lower-content {
+        display: block;
+    }
+    .card-group {
+        display: block;
+    }
+    .l-posts {
+        margin-left: 0;
+    }
+    .content {
+        width: auto;
+    }
+    .card {
+        margin-bottom: 20px;
+        width: auto;
+    }
+    .growth-header{
+        display: block;
+        text-align: center;
+        width: auto;
+    }
+    .header-switch {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .contain{
+        width: auto;
+    }
+    .content {
+        width: auto;
+    }
+    .card-group {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .lower-content {
+        display: block;
+    }
+
+    .l-posts {
+        margin-left: 0;
+    }
+    .growth {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:1053px) {
+    .sidebar {
+        display: none;
+    }
 }

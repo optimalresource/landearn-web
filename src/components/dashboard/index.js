@@ -7,11 +7,11 @@ import './index.css'
 function Dashboard(props) {
   return (
     <div>
-      <div className="flex contain">
+      <div className="flex contain p-8">
         <div className=' sidebar w-80 text-white rounded-3xl'>
           <Sidebar />
         </div>
-        <div className=' w-full'>
+        <div className=' mx-auto'>
           <Main />
         </div>
       </div>

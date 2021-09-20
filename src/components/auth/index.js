@@ -21,7 +21,6 @@ const Auth = ({ show, loginModalExitClickHandler }) => {
   let drawerClasses = ["login-wrapper"];
   if (show) {
     drawerClasses = ["login-wrapper", "open"];
-    console.log("This is terrible");
   }
 
     function _onWrapperClick(event) {

@@ -85,10 +85,10 @@ function App({ modalOpen }) {
               show={sideDrawOpen}
               loginModalClickHandler={loginModalToggleClickHandler}
             />
-            <Login
+            {loginModalShow && <Login
               loginModalExitClickHandler={exitLoginModalToggleClickHandler}
               show={loginModalShow}
-            />
+            />}
           </div>
         </div>
       </Router>
@@ -112,10 +112,10 @@ function App({ modalOpen }) {
             <FurtherQuestions />
             <Footer />
             {backdrop}
-            <Login
+            {loginModalShow && <Login
               loginModalExitClickHandler={exitLoginModalToggleClickHandler}
               show={loginModalShow}
-            />
+            />}
           </div>
         </div>
       </Router>
